@@ -10,7 +10,8 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
+  HashRouter
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -29,7 +30,8 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    // <Router>
+    <HashRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -43,7 +45,8 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+      </HashRouter>
+    // </Router>
   );
 }
 
