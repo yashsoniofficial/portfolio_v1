@@ -43,7 +43,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Container  fluid className="home2-section" id="home">
       <Home2 />
+      </Container>
     </section>
   );
 }
