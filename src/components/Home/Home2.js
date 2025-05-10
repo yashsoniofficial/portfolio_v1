@@ -14,7 +14,7 @@ function Home2() {
   const [text, setText] = useState("");
 
   useEffect(() => {
-    fetch("/textSource/home_about_body.txt")
+    fetch(process.env.PUBLIC_URL + "/textSource/home_about_body.txt")
       .then((response) => response.text())
       .then((data) => setText(data))
       .catch((error) => console.error("Error fetching text file:", error));
