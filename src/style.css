@@ -266,7 +266,6 @@ button:focus {
 
 .home2-section {
   position: relative;
-  z-index: -1;
   background-image: var(--image-gradient);
   background-position: top center;
   background-repeat: no-repeat;
