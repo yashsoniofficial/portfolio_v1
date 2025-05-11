@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.text-highlight{
+  color:#33c7d8;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -473,7 +477,7 @@ button:focus {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  /* height: 100% !important; */
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
