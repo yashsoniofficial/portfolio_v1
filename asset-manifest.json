@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio_v1/static/css/main.853e60e5.css",
-    "main.js": "/portfolio_v1/static/js/main.06def07a.js",
+    "main.css": "/portfolio_v1/static/css/main.9ecd7952.css",
+    "main.js": "/portfolio_v1/static/js/main.658a64ee.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio_v1/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_v1/static/js/787.1ed0c42c.chunk.js",
+    "static/media/project4_linefollower_image.png": "/portfolio_v1/static/media/project4_linefollower_image.3d1c803ccee5a4d5df22.png",
+    "static/media/project2_omni_image.png": "/portfolio_v1/static/media/project2_omni_image.4fefb0db929c9a729d69.png",
+    "static/media/project6_universal_image.png": "/portfolio_v1/static/media/project6_universal_image.56092532e2661bf26d80.png",
+    "static/media/project3_robocon_image.png": "/portfolio_v1/static/media/project3_robocon_image.6ca14ef24d6817f268eb.png",
+    "static/media/project5_drone_image.png": "/portfolio_v1/static/media/project5_drone_image.b1ed56c3af0447b915ca.png",
     "static/media/display_picture.png": "/portfolio_v1/static/media/display_picture.24846adca5227478a866.png",
-    "static/media/leaf.png": "/portfolio_v1/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/portfolio_v1/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/portfolio_v1/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/portfolio_v1/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/project1_UR5e_image.png": "/portfolio_v1/static/media/project1_UR5e_image.099d2843c1eea7b5a587.png",
+    "static/media/project7_2rotor_image.png": "/portfolio_v1/static/media/project7_2rotor_image.dfda9596987061cb9966.png",
     "static/media/robotics_engineer_illustration.png": "/portfolio_v1/static/media/robotics_engineer_illustration.c1b01948ef398cd4b503.png",
-    "static/media/blog.png": "/portfolio_v1/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/Resume_Latest_Master.pdf": "/portfolio_v1/static/media/Resume_Latest_Master.42b541ee232fe39c9e4b.pdf",
     "static/media/home-bg-2.jpg": "/portfolio_v1/static/media/home-bg-2.865e198b4f20ef21539f.jpg",
     "static/media/home-main.svg": "/portfolio_v1/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio_v1/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/chatify.png": "/portfolio_v1/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/avatar.svg": "/portfolio_v1/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/portfolio_v1/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio_v1/index.html",
-    "main.853e60e5.css.map": "/portfolio_v1/static/css/main.853e60e5.css.map",
-    "main.06def07a.js.map": "/portfolio_v1/static/js/main.06def07a.js.map",
+    "main.9ecd7952.css.map": "/portfolio_v1/static/css/main.9ecd7952.css.map",
+    "main.658a64ee.js.map": "/portfolio_v1/static/js/main.658a64ee.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio_v1/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_v1/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.853e60e5.css",
-    "static/js/main.06def07a.js"
+    "static/css/main.9ecd7952.css",
+    "static/js/main.658a64ee.js"
   ]
 }
