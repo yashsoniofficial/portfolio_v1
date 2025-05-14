@@ -1,8 +1,9 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(2, 10, 12, 0.6),   /* very dark teal-black */
-    rgba(1, 18, 22, 0.92)   /* almost-black blue-green */
+    rgba(2, 10, 12, 0.6),
+    /* very dark teal-black */ rgba(1, 18, 22, 0.92)
+      /* almost-black blue-green */
   );
 
   --image-gradient: linear-gradient(
@@ -11,15 +12,15 @@ html {
     rgba(1, 18, 22, 0.86)
   );
 
-  --imp-text-color: #0e6b74;  /* ultra-deep cyan for strong accent */
+  --imp-text-color: #0e6b74; /* ultra-deep cyan for strong accent */
 }
 
 .purple {
   color: var(--imp-text-color) !important;
 }
 
-.text-highlight{
-  color:#33c7d8;
+.text-highlight {
+  color: #33c7d8;
 }
 
 button:focus {
@@ -261,7 +262,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg-2.jpg);
+  background-image: var(--image-gradient);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -344,7 +345,7 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -479,6 +480,25 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   /* height: 100% !important; */
 }
+
+/* Default (desktop/laptop) */
+.project-card-img {
+  width: 30% !important;
+  height: 30%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Tablet & Mobile view */
+@media (max-width: 991px) {
+  .project-card-img {
+    width: 100% !important;
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;

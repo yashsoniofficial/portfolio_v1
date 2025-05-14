@@ -7,11 +7,17 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card
-      className="project-card-view"
-      style={{ display: "flex", flexDirection: "row-reverse"}}
+      // className="project-card-view"
+      // style={{ display: "flex", flexDirection: "row-reverse"}}
+      className="project-card-view row g-0 flex-column flex-md-row-reverse"
     >
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{height:"30%",width:"30%"}} />
-      <Card.Body >
+      <Card.Img
+        className="project-card-img cold-md-4"
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+      />
+      <Card.Body className="col-md-8">
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
