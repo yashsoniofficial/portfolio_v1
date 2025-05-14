@@ -1,11 +1,1 @@
-I am a Mechanical Engineer and aspiring Robotics Engineer with
-extensive experience in designing, coding, manufacturing, and
-testing robotic systems, software applications, and automation
-solutions.
-Proficient in the Robot Operating System (ROS2), autonomous
-navigation, perception, and hardware-software integration, I am
-driven by a passion for developing innovative robotic solutions
-for dynamic environments.
-Additionally, I bring strong leadership and management
-skills that promote collaboration, enabling teams to achieve their
-objectives while continually enhancing my own expertise.
+A mechanical engineer and aspiring robotics engineer with extensive experience in designing, coding, manufacturing, and testing robotic systems, software applications, and automation solutions. Proficient in the Robot Operating System (ROS2), autonomous navigation, perception, and hardware-software integration, with a strong passion for developing innovative robotic solutions for dynamic environments. Demonstrates effective leadership and management skills that foster collaboration and drive teams toward achieving their objectives while continuously advancing technical expertise.
