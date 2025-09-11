@@ -9,12 +9,14 @@ import project4_linefollower_image from "../../Assets/project4_linefollower_imag
 import project5_drone_image from "../../Assets/project5_drone_image.png";
 import project6_universal_image from "../../Assets/project6_universal_image.png";
 import project7_2rotor_image from "../../Assets/project7_2rotor_image.png";
+import project8_self_balancing_image from "../../Assets/project8_self_balancing_image.png";
 
 function Projects() {
   const [filesData, setFilesData] = useState({
     project1_description: "",
     project2_description: "",
     project3_description: "",
+    project8_description: "",
     project4_description: "",
     project5_description: "",
     project6_description: "",
@@ -26,6 +28,7 @@ function Projects() {
       "project1_description",
       "project2_description",
       "project3_description",
+      "project8_description",
       "project4_description",
       "project5_description",
       "project6_description",
@@ -112,6 +115,25 @@ function Projects() {
               description={
                 <div className="home-about-body">
                   {filesData.project3_description
+                    .split(".")
+                    .map((para, idx) => (
+                      <p key={idx}>{para}</p>
+                    ))}
+                </div>
+              }
+            />
+          </Col>
+
+          <Col md={12} className="project-card">
+            <ProjectCard
+              imgPath={project8_self_balancing_image}
+              isBlog={false}
+              title={
+                <strong className="text-highlight">Self Balancing PID Controlled Robot </strong>
+              }
+              description={
+                <div className="home-about-body">
+                  {filesData.project8_description
                     .split(".")
                     .map((para, idx) => (
                       <p key={idx}>{para}</p>
